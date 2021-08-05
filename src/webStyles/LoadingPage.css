@@ -1,0 +1,45 @@
+.LoadingContainer {
+  background: linear-gradient(#ff3d6e, #ff877e);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.LoadingImageAvatar {
+  border-radius: 50%;
+  width: 18rem;
+  height: 18rem;
+}
+.LoadingLanderTitle {
+  color: white;
+  font-size: 3rem;
+}
+.LoadingLanderSubTitle {
+  color: white;
+}
+.LoadingJoinNowButton {
+  background-color: #ff3d6e;
+  color: white;
+  border-radius: 5rem;
+  border: none;
+  width: 8rem;
+  height: 3rem;
+  margin: 1rem;
+}
+.LoadingSignInButton {
+  background-color: white;
+  color: #ff3d6e;
+  border-radius: 5rem;
+  border: none;
+  width: 8rem;
+  height: 3rem;
+  margin: 1rem;
+}
+.AdminPage {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  font-size: 20px;
+  color: white;
+}

@@ -1,0 +1,105 @@
+.imageWrapper {
+  height: 35vh;
+  background: url(https://thumbs.dreamstime.com/b/college-canteen-indian-uttar-pradesh-college-canteen-indian-uttar-pradesh-211141281.jpg);
+}
+.titleWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.itemWrapper {
+  min-height: 1000px;
+  height: 70%;
+  background: linear-gradient(#ff3d6e, #ff877e);
+}
+.itemContainer {
+  padding: 2px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cardWrapper {
+  border: 2px solid #ffffff;
+  padding: 2vh;
+  height: 30vh;
+  width: 48vh;
+  margin: 2vh;
+  display: flex;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 2px whitesmoke;
+}
+.itemContentWrapper {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 0.5rem;
+  justify-content: space-evenly;
+}
+
+.itemContentWrapper div {
+  margin: 0.3rem;
+}
+.itemButton {
+  display: flex;
+  justify-content: center;
+}
+.cartCount {
+  position: relative;
+  left: 18px;
+  bottom: 10px;
+  color: white;
+}
+.cardCart {
+  margin: 3px;
+  display: flex;
+  align-self: center;
+  color: whitesmoke;
+}
+.cardCart:active {
+  margin: 3px;
+  display: flex;
+  align-self: center;
+  color: rgb(255, 14, 155);
+}
+.LoadingJoinNowButton {
+  background-color: #ff3d6e;
+  color: white;
+  border-radius: 5rem;
+  border: none;
+  width: 8rem;
+  height: 3rem;
+  margin: 1rem;
+}
+.cartButton {
+  border-radius: 4px;
+  border: 2px solid white;
+}
+
+.noItem {
+  display: flex;
+  width: 100%;
+  height: 850px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+@media only screen and (max-width: 700px) {
+  .itemContentWrapper {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 0.5rem;
+    justify-content: space-evenly;
+    font-size: 12px;
+  }
+  .noItem {
+    display: flex;
+    width: 100%;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+  }
+}

@@ -1,0 +1,58 @@
+.LoginContainer {
+  background: linear-gradient(#ff3d6e, #ff877e);
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.LoginLogin {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+.LoginDontHaveAccount {
+  color: white;
+  margin: 1rem;
+  font-size: 1rem;
+}
+.LoginLinkRegister {
+  text-decoration: none;
+  color: white;
+}
+.LoginRegisterForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+  justify-content: center;
+}
+input {
+  width: 20rem;
+  height: 3rem;
+  border-radius: 2rem;
+  border-width: 0px;
+  background-color: #efeded;
+  margin: 1rem;
+  text-align: center;
+  outline: none;
+}
+.LoginInputLabel {
+  color: grey;
+  margin: 0.5rem;
+}
+.LoginLoginButton {
+  background-color: #ff3d6e;
+  color: white;
+  border-radius: 5rem;
+  border: none;
+  width: 16rem;
+  height: 3rem;
+  margin: 1rem;
+}
+.LoginAgain {
+  color: white;
+  border: 2px solid #ff426f;
+  padding: 1rem;
+  border-radius: 7px;
+}

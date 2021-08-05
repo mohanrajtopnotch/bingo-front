@@ -1,0 +1,23 @@
+.middle {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  z-index: -1;
+}
+.tokenSaveDiv {
+  display: flex;
+  justify-content: center;
+}
+.tokenSave {
+  text-align: center;
+  margin: 10px;
+  font-size: 15px;
+  border: 2px solid white;
+  border-radius: 12px;
+  padding: 10px;
+}
+.screenshot {
+  font-size: 20px;
+  margin: 15px;
+  text-align: center;
+}

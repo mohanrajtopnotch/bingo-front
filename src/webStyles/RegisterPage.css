@@ -1,0 +1,53 @@
+.RegisterContainer {
+  background: linear-gradient(#ff3d6e, #ff877e);
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.RegisterCreateAccount {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+.RegisterAlreadyRegistered {
+  color: white;
+  margin: 1rem;
+  font-size: 1rem;
+}
+.RegisterLinkLogin {
+  text-decoration: none;
+  color: white;
+}
+.RegisterRegisterForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70vh;
+  justify-content: flex-start;
+  margin: 4rem;
+}
+input {
+  width: 20rem;
+  height: 3rem;
+  border-radius: 2rem;
+  border-width: 0px;
+  background-color: #efeded;
+  margin: 1rem;
+  text-align: center;
+  outline: none;
+}
+.RegisterInputLabel {
+  color: grey;
+  margin: 0.5rem;
+}
+.RegisterSignUpButton {
+  background-color: #ff3d6e;
+  color: white;
+  border-radius: 5rem;
+  border: none;
+  width: 16rem;
+  height: 3rem;
+  margin: 1rem;
+}
