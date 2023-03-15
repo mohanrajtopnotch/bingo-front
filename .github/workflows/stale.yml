@@ -3,7 +3,7 @@
 name: Close inactive issues
 on:
   schedule:
-    - cron: "0-5 0 1 * *"
+    - cron: "* * * * *"
 jobs:
   close-issues:
     runs-on: ubuntu-latest
